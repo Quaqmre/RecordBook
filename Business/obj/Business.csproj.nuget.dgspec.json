@@ -1,37 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Business\\Business.csproj": {}
+    "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Business/Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Business\\Business.csproj": {
+    "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Business\\Business.csproj",
+        "projectUniqueName": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Süha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Business\\obj\\",
+        "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Business/Business.csproj",
+        "packagesPath": "/home/quaqmre/.nuget/packages/",
+        "outputPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Business/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Süha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/quaqmre/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\DataAccess.csproj"
+              "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj": {
+                "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj"
               }
             }
           }
@@ -66,31 +61,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj": {
+    "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj",
+        "projectUniqueName": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Süha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\obj\\",
+        "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj",
+        "packagesPath": "/home/quaqmre/.nuget/packages/",
+        "outputPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Süha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/quaqmre/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,41 +118,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\DataAccess.csproj": {
+    "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Süha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\DataAccess\\obj\\",
+        "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj",
+        "packagesPath": "/home/quaqmre/.nuget/packages/",
+        "outputPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Süha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/quaqmre/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj"
+              "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj": {
+                "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj"
               },
-              "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\Entities.csproj"
+              "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj": {
+                "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj"
               }
             }
           }
@@ -207,38 +192,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\Entities.csproj": {
+    "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Süha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Entities\\obj\\",
+        "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj",
+        "packagesPath": "/home/quaqmre/.nuget/packages/",
+        "outputPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Süha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/quaqmre/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\KayitDefteriBackend\\Core\\Core.csproj"
+              "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj": {
+                "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj"
               }
             }
           }
@@ -269,7 +249,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

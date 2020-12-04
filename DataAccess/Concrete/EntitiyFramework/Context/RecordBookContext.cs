@@ -7,7 +7,7 @@ namespace DataAccess.Concrete.EntitiyFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql(@"server=localhost;port=3306;database=test;user=test_user;password=test");
+            optionsBuilder.UseMySql(@"server=localhost;port=3306;database=RecordBook;user=root;password=password");
         }
         public DbSet<User> Users { get; set; }
     }
