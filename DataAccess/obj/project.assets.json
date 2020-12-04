@@ -6412,34 +6412,40 @@
     ]
   },
   "packageFolders": {
-    "/home/quaqmre/.nuget/packages/": {}
+    "C:\\Users\\Süha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/DataAccess.csproj",
-      "packagesPath": "/home/quaqmre/.nuget/packages/",
-      "outputPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/DataAccess/obj/",
+      "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Süha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/quaqmre/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Süha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj": {
-              "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Core/Core.csproj"
+            "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\Core\\Core.csproj"
             },
-            "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj": {
-              "projectPath": "/home/quaqmre/Desktop/Develop/gitcsharp/RecordBook/Entities/Entities.csproj"
+            "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Süha\\Documents\\ReactProject\\EtsTur\\Entities\\Entities.csproj"
             }
           }
         }
@@ -6484,7 +6490,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
