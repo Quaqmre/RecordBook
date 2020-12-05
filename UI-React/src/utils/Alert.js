@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useToasts } from "react-toast-notifications";
 
 const Alertify = ({ content ,appearance}) => {
@@ -10,8 +10,6 @@ const Alertify = ({ content ,appearance}) => {
       autoDismiss: true,
     });
   }, [addToast, content, setAppearance]);
-
-  return <div></div>;
 };
 
 export default Alertify;
