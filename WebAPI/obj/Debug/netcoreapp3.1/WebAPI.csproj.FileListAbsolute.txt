@@ -288,3 +288,4 @@ C:\Users\Süha\Documents\ReactProject\EtsTur\WebAPI\obj\Debug\netcoreapp3.1\stat
 C:\Users\Süha\Documents\ReactProject\EtsTur\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Süha\Documents\ReactProject\EtsTur\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Süha\Documents\ReactProject\EtsTur\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Süha\Documents\ReactProject\EtsTur\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

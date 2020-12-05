@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -29,6 +30,7 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<DbContext>(x => x.UseMySql(@"server=localhost;port=3306;database=RecordBook;user=root;password=paswword"));
             services.AddControllers();
             services.AddScoped<IUserService, UserManager>();
             services.AddScoped<IUserDal, EfUserDal>();
@@ -36,8 +38,12 @@ namespace WebAPI
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DbContext dbContext )
         {
+            dbContext.Database.Migrate();
+            var sql = "CREATE TABLE `RecordBook`.`Users` (   `Id` INT NOT NULL AUTO_INCREMENT,   `Name` VARCHAR(45) NULL,   `LastName` VARCHAR(45) NULL,   `BloodGroup` VARCHAR(45) NULL,   `PhoneCountryCode` VARCHAR(45) NULL,   `PhoneNumber` VARCHAR(45) NULL,   `City` VARCHAR(45) NULL,   `Address` VARCHAR(45) NULL,   PRIMARY KEY (`Id`));INSERT INTO `RecordBook`.`Users` (`Name`, `LastName`, `BloodGroup`, `PhoneCountryCode`, `PhoneNumber`, `City`, `Address`) VALUES ( 'Süha', 'Arıkan', '0rh+', '+90', '5554443322', 'ANTALYA', 'Konyaaltı');";
+            dbContext.Database.ExecuteSqlRaw(sql);
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
